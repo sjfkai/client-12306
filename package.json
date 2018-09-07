@@ -1,0 +1,27 @@
+{
+  "name": "client-12306",
+  "version": "0.0.1",
+  "description": "12306 api kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "12306",
+    "client"
+  ],
+  "author": "sjfkai",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.2",
+    "qs": "^6.5.2"
+  }
+}
